@@ -1,0 +1,546 @@
+{
+  "/assets/images/004-color-scheme-dffb740f.png": {
+    "src": "/assets/images/optimized/82fc574a2b79-100.webp",
+    "srcset": "/assets/images/optimized/82fc574a2b79-100.webp 100w",
+    "background": {
+      "standard": "/assets/images/optimized/82fc574a2b79-100.webp",
+      "retina": "/assets/images/optimized/82fc574a2b79-100.webp"
+    }
+  },
+  "/assets/images/006-camera-lens-4e29d993.png": {
+    "src": "/assets/images/optimized/05b59239332c-100.webp",
+    "srcset": "/assets/images/optimized/05b59239332c-100.webp 100w",
+    "background": {
+      "standard": "/assets/images/optimized/05b59239332c-100.webp",
+      "retina": "/assets/images/optimized/05b59239332c-100.webp"
+    }
+  },
+  "/assets/images/017-full-screen-99eb4cc3.png": {
+    "src": "/assets/images/optimized/004f9aa04f6a-100.webp",
+    "srcset": "/assets/images/optimized/004f9aa04f6a-100.webp 100w",
+    "background": {
+      "standard": "/assets/images/optimized/004f9aa04f6a-100.webp",
+      "retina": "/assets/images/optimized/004f9aa04f6a-100.webp"
+    }
+  },
+  "/assets/images/1-d8ac38f8.png": {
+    "src": "/assets/images/optimized/3cf77668387f-17.webp",
+    "srcset": "/assets/images/optimized/3cf77668387f-17.webp 17w",
+    "background": {
+      "standard": "/assets/images/optimized/3cf77668387f-17.webp",
+      "retina": "/assets/images/optimized/3cf77668387f-17.webp"
+    }
+  },
+  "/assets/images/2-a5688f55.png": {
+    "src": "/assets/images/optimized/25093b26624f-17.webp",
+    "srcset": "/assets/images/optimized/25093b26624f-17.webp 17w",
+    "background": {
+      "standard": "/assets/images/optimized/25093b26624f-17.webp",
+      "retina": "/assets/images/optimized/25093b26624f-17.webp"
+    }
+  },
+  "/assets/images/3-9fba644a.png": {
+    "src": "/assets/images/optimized/e14e5d71c3d8-17.webp",
+    "srcset": "/assets/images/optimized/e14e5d71c3d8-17.webp 17w",
+    "background": {
+      "standard": "/assets/images/optimized/e14e5d71c3d8-17.webp",
+      "retina": "/assets/images/optimized/e14e5d71c3d8-17.webp"
+    }
+  },
+  "/assets/images/4pg-wordmark-light.png": {
+    "src": "/assets/images/optimized/6dd357baabc4-640.webp",
+    "srcset": "/assets/images/optimized/6dd357baabc4-320.webp 320w, /assets/images/optimized/6dd357baabc4-640.webp 640w, /assets/images/optimized/6dd357baabc4-960.webp 960w, /assets/images/optimized/6dd357baabc4-1280.webp 1280w, /assets/images/optimized/6dd357baabc4-1600.webp 1600w, /assets/images/optimized/6dd357baabc4-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/6dd357baabc4-1600.webp",
+      "retina": "/assets/images/optimized/6dd357baabc4-2400.webp"
+    }
+  },
+  "/assets/images/Ballantines-Logo-white-300x112-deeef830.png": {
+    "src": "/assets/images/optimized/7fe6ac74ac76-300.webp",
+    "srcset": "/assets/images/optimized/7fe6ac74ac76-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/7fe6ac74ac76-300.webp",
+      "retina": "/assets/images/optimized/7fe6ac74ac76-300.webp"
+    }
+  },
+  "/assets/images/CCM-02-f8638505.jpg": {
+    "src": "/assets/images/optimized/5289c932833b-500.webp",
+    "srcset": "/assets/images/optimized/5289c932833b-320.webp 320w, /assets/images/optimized/5289c932833b-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/5289c932833b-500.webp",
+      "retina": "/assets/images/optimized/5289c932833b-500.webp"
+    }
+  },
+  "/assets/images/CCM-03-41585ebf.jpg": {
+    "src": "/assets/images/optimized/b453054a7262-500.webp",
+    "srcset": "/assets/images/optimized/b453054a7262-320.webp 320w, /assets/images/optimized/b453054a7262-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/b453054a7262-500.webp",
+      "retina": "/assets/images/optimized/b453054a7262-500.webp"
+    }
+  },
+  "/assets/images/CCM-04-0f660aa4.jpg": {
+    "src": "/assets/images/optimized/db5f2f0bcc24-500.webp",
+    "srcset": "/assets/images/optimized/db5f2f0bcc24-320.webp 320w, /assets/images/optimized/db5f2f0bcc24-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/db5f2f0bcc24-500.webp",
+      "retina": "/assets/images/optimized/db5f2f0bcc24-500.webp"
+    }
+  },
+  "/assets/images/CCM-05-64a88fc7.jpg": {
+    "src": "/assets/images/optimized/bda2b586fa45-500.webp",
+    "srcset": "/assets/images/optimized/bda2b586fa45-320.webp 320w, /assets/images/optimized/bda2b586fa45-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/bda2b586fa45-500.webp",
+      "retina": "/assets/images/optimized/bda2b586fa45-500.webp"
+    }
+  },
+  "/assets/images/CCM-06-8ce495a8.jpg": {
+    "src": "/assets/images/optimized/84fef31767e3-500.webp",
+    "srcset": "/assets/images/optimized/84fef31767e3-320.webp 320w, /assets/images/optimized/84fef31767e3-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/84fef31767e3-500.webp",
+      "retina": "/assets/images/optimized/84fef31767e3-500.webp"
+    }
+  },
+  "/assets/images/CCM-07-b9e1c6cf.jpg": {
+    "src": "/assets/images/optimized/365e131b9d09-500.webp",
+    "srcset": "/assets/images/optimized/365e131b9d09-320.webp 320w, /assets/images/optimized/365e131b9d09-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/365e131b9d09-500.webp",
+      "retina": "/assets/images/optimized/365e131b9d09-500.webp"
+    }
+  },
+  "/assets/images/CCM-08-27ecdb97.jpg": {
+    "src": "/assets/images/optimized/d28d8d03783e-500.webp",
+    "srcset": "/assets/images/optimized/d28d8d03783e-320.webp 320w, /assets/images/optimized/d28d8d03783e-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/d28d8d03783e-500.webp",
+      "retina": "/assets/images/optimized/d28d8d03783e-500.webp"
+    }
+  },
+  "/assets/images/CCM-09-9c65bd8f.jpg": {
+    "src": "/assets/images/optimized/3e5d142f36e0-500.webp",
+    "srcset": "/assets/images/optimized/3e5d142f36e0-320.webp 320w, /assets/images/optimized/3e5d142f36e0-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/3e5d142f36e0-500.webp",
+      "retina": "/assets/images/optimized/3e5d142f36e0-500.webp"
+    }
+  },
+  "/assets/images/CCM-10-74874575.jpg": {
+    "src": "/assets/images/optimized/34ccbcada3cb-500.webp",
+    "srcset": "/assets/images/optimized/34ccbcada3cb-320.webp 320w, /assets/images/optimized/34ccbcada3cb-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/34ccbcada3cb-500.webp",
+      "retina": "/assets/images/optimized/34ccbcada3cb-500.webp"
+    }
+  },
+  "/assets/images/CCM-11-8350dc2c.jpg": {
+    "src": "/assets/images/optimized/96fe03cd0638-500.webp",
+    "srcset": "/assets/images/optimized/96fe03cd0638-320.webp 320w, /assets/images/optimized/96fe03cd0638-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/96fe03cd0638-500.webp",
+      "retina": "/assets/images/optimized/96fe03cd0638-500.webp"
+    }
+  },
+  "/assets/images/CCM-31.webp-16421471.png": {
+    "src": "/assets/images/optimized/c6b076545932-500.webp",
+    "srcset": "/assets/images/optimized/c6b076545932-320.webp 320w, /assets/images/optimized/c6b076545932-500.webp 500w",
+    "background": {
+      "standard": "/assets/images/optimized/c6b076545932-500.webp",
+      "retina": "/assets/images/optimized/c6b076545932-500.webp"
+    }
+  },
+  "/assets/images/CCMusic-01-200x200-f4677560.jpg": {
+    "src": "/assets/images/optimized/14fd284d9306-200.webp",
+    "srcset": "/assets/images/optimized/14fd284d9306-200.webp 200w",
+    "background": {
+      "standard": "/assets/images/optimized/14fd284d9306-200.webp",
+      "retina": "/assets/images/optimized/14fd284d9306-200.webp"
+    }
+  },
+  "/assets/images/CCMusic-02-150x150-4a2d07be.jpg": {
+    "src": "/assets/images/optimized/caa1535bc371-150.webp",
+    "srcset": "/assets/images/optimized/caa1535bc371-150.webp 150w",
+    "background": {
+      "standard": "/assets/images/optimized/caa1535bc371-150.webp",
+      "retina": "/assets/images/optimized/caa1535bc371-150.webp"
+    }
+  },
+  "/assets/images/CCMusic-03-150x150-5d38dbd1.jpg": {
+    "src": "/assets/images/optimized/11aea92e11b5-150.webp",
+    "srcset": "/assets/images/optimized/11aea92e11b5-150.webp 150w",
+    "background": {
+      "standard": "/assets/images/optimized/11aea92e11b5-150.webp",
+      "retina": "/assets/images/optimized/11aea92e11b5-150.webp"
+    }
+  },
+  "/assets/images/CCMusic-04-150x150-14f7dd84.jpg": {
+    "src": "/assets/images/optimized/47e7bca8e99d-150.webp",
+    "srcset": "/assets/images/optimized/47e7bca8e99d-150.webp 150w",
+    "background": {
+      "standard": "/assets/images/optimized/47e7bca8e99d-150.webp",
+      "retina": "/assets/images/optimized/47e7bca8e99d-150.webp"
+    }
+  },
+  "/assets/images/CCMusic-05-150x150-549735a0.jpg": {
+    "src": "/assets/images/optimized/357dee0ae841-150.webp",
+    "srcset": "/assets/images/optimized/357dee0ae841-150.webp 150w",
+    "background": {
+      "standard": "/assets/images/optimized/357dee0ae841-150.webp",
+      "retina": "/assets/images/optimized/357dee0ae841-150.webp"
+    }
+  },
+  "/assets/images/fc-554005b2.png": {
+    "src": "/assets/images/optimized/06786819eac4-54.webp",
+    "srcset": "/assets/images/optimized/06786819eac4-54.webp 54w",
+    "background": {
+      "standard": "/assets/images/optimized/06786819eac4-54.webp",
+      "retina": "/assets/images/optimized/06786819eac4-54.webp"
+    }
+  },
+  "/assets/images/h1-16-e43489ef.webp": {
+    "src": "/assets/images/optimized/c5c8dd124c13-64.webp",
+    "srcset": "/assets/images/optimized/c5c8dd124c13-64.webp 64w",
+    "background": {
+      "standard": "/assets/images/optimized/c5c8dd124c13-64.webp",
+      "retina": "/assets/images/optimized/c5c8dd124c13-64.webp"
+    }
+  },
+  "/assets/images/h1-17-0ddf0db3.webp": {
+    "src": "/assets/images/optimized/a3d5f6179053-63.webp",
+    "srcset": "/assets/images/optimized/a3d5f6179053-63.webp 63w",
+    "background": {
+      "standard": "/assets/images/optimized/a3d5f6179053-63.webp",
+      "retina": "/assets/images/optimized/a3d5f6179053-63.webp"
+    }
+  },
+  "/assets/images/h1-18-0b2b8b9c.webp": {
+    "src": "/assets/images/optimized/31a705f423c9-37.webp",
+    "srcset": "/assets/images/optimized/31a705f423c9-37.webp 37w",
+    "background": {
+      "standard": "/assets/images/optimized/31a705f423c9-37.webp",
+      "retina": "/assets/images/optimized/31a705f423c9-37.webp"
+    }
+  },
+  "/assets/images/h1-2-c340e4b8.webp": {
+    "src": "/assets/images/optimized/2351b8b624c9-640.webp",
+    "srcset": "/assets/images/optimized/2351b8b624c9-320.webp 320w, /assets/images/optimized/2351b8b624c9-640.webp 640w, /assets/images/optimized/2351b8b624c9-960.webp 960w, /assets/images/optimized/2351b8b624c9-1280.webp 1280w, /assets/images/optimized/2351b8b624c9-1300.webp 1300w",
+    "background": {
+      "standard": "/assets/images/optimized/2351b8b624c9-1300.webp",
+      "retina": "/assets/images/optimized/2351b8b624c9-1300.webp"
+    }
+  },
+  "/assets/images/h1-32-d1dfc3b4.webp": {
+    "src": "/assets/images/optimized/52a914804e01-640.webp",
+    "srcset": "/assets/images/optimized/52a914804e01-320.webp 320w, /assets/images/optimized/52a914804e01-640.webp 640w, /assets/images/optimized/52a914804e01-732.webp 732w",
+    "background": {
+      "standard": "/assets/images/optimized/52a914804e01-732.webp",
+      "retina": "/assets/images/optimized/52a914804e01-732.webp"
+    }
+  },
+  "/assets/images/h1-39-567dbbc7.png": {
+    "src": "/assets/images/optimized/69fb616e4d24-106.webp",
+    "srcset": "/assets/images/optimized/69fb616e4d24-106.webp 106w",
+    "background": {
+      "standard": "/assets/images/optimized/69fb616e4d24-106.webp",
+      "retina": "/assets/images/optimized/69fb616e4d24-106.webp"
+    }
+  },
+  "/assets/images/h1-41-aea80329.webp": {
+    "src": "/assets/images/optimized/59f3724d9587-30.webp",
+    "srcset": "/assets/images/optimized/59f3724d9587-30.webp 30w",
+    "background": {
+      "standard": "/assets/images/optimized/59f3724d9587-30.webp",
+      "retina": "/assets/images/optimized/59f3724d9587-30.webp"
+    }
+  },
+  "/assets/images/h2-17-cff5b452.webp": {
+    "src": "/assets/images/optimized/390ae57f8d94-60.webp",
+    "srcset": "/assets/images/optimized/390ae57f8d94-60.webp 60w",
+    "background": {
+      "standard": "/assets/images/optimized/390ae57f8d94-60.webp",
+      "retina": "/assets/images/optimized/390ae57f8d94-60.webp"
+    }
+  },
+  "/assets/images/h3-20-bd62cb3c.webp": {
+    "src": "/assets/images/optimized/a4fae60881bd-100.webp",
+    "srcset": "/assets/images/optimized/a4fae60881bd-100.webp 100w",
+    "background": {
+      "standard": "/assets/images/optimized/a4fae60881bd-100.webp",
+      "retina": "/assets/images/optimized/a4fae60881bd-100.webp"
+    }
+  },
+  "/assets/images/h3-22-ecc986f4.webp": {
+    "src": "/assets/images/optimized/4921e593f12f-100.webp",
+    "srcset": "/assets/images/optimized/4921e593f12f-100.webp 100w",
+    "background": {
+      "standard": "/assets/images/optimized/4921e593f12f-100.webp",
+      "retina": "/assets/images/optimized/4921e593f12f-100.webp"
+    }
+  },
+  "/assets/images/h3-23-d1e7544f.webp": {
+    "src": "/assets/images/optimized/8b916127a056-100.webp",
+    "srcset": "/assets/images/optimized/8b916127a056-100.webp 100w",
+    "background": {
+      "standard": "/assets/images/optimized/8b916127a056-100.webp",
+      "retina": "/assets/images/optimized/8b916127a056-100.webp"
+    }
+  },
+  "/assets/images/Hennessy-Logo-white-300x159-ff64b4d3.png": {
+    "src": "/assets/images/optimized/91290b634076-300.webp",
+    "srcset": "/assets/images/optimized/91290b634076-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/91290b634076-300.webp",
+      "retina": "/assets/images/optimized/91290b634076-300.webp"
+    }
+  },
+  "/assets/images/hero/about-banner.JPG": {
+    "src": "/assets/images/optimized/f2bb0e54ef02-640.webp",
+    "srcset": "/assets/images/optimized/f2bb0e54ef02-320.webp 320w, /assets/images/optimized/f2bb0e54ef02-640.webp 640w, /assets/images/optimized/f2bb0e54ef02-960.webp 960w, /assets/images/optimized/f2bb0e54ef02-1254.webp 1254w",
+    "background": {
+      "standard": "/assets/images/optimized/f2bb0e54ef02-1254.webp",
+      "retina": "/assets/images/optimized/f2bb0e54ef02-1254.webp"
+    }
+  },
+  "/assets/images/hero/Aram%207.JPG": {
+    "src": "/assets/images/optimized/74c0ab9e44e2-640.webp",
+    "srcset": "/assets/images/optimized/74c0ab9e44e2-320.webp 320w, /assets/images/optimized/74c0ab9e44e2-640.webp 640w, /assets/images/optimized/74c0ab9e44e2-960.webp 960w, /assets/images/optimized/74c0ab9e44e2-1280.webp 1280w, /assets/images/optimized/74c0ab9e44e2-1600.webp 1600w, /assets/images/optimized/74c0ab9e44e2-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/74c0ab9e44e2-1600.webp",
+      "retina": "/assets/images/optimized/74c0ab9e44e2-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%201.JPG": {
+    "src": "/assets/images/optimized/b08bed4d0a09-640.webp",
+    "srcset": "/assets/images/optimized/b08bed4d0a09-320.webp 320w, /assets/images/optimized/b08bed4d0a09-640.webp 640w, /assets/images/optimized/b08bed4d0a09-960.webp 960w, /assets/images/optimized/b08bed4d0a09-1280.webp 1280w, /assets/images/optimized/b08bed4d0a09-1600.webp 1600w, /assets/images/optimized/b08bed4d0a09-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/b08bed4d0a09-1600.webp",
+      "retina": "/assets/images/optimized/b08bed4d0a09-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%2010.JPG": {
+    "src": "/assets/images/optimized/448648a2e473-640.webp",
+    "srcset": "/assets/images/optimized/448648a2e473-320.webp 320w, /assets/images/optimized/448648a2e473-640.webp 640w, /assets/images/optimized/448648a2e473-960.webp 960w, /assets/images/optimized/448648a2e473-1280.webp 1280w, /assets/images/optimized/448648a2e473-1600.webp 1600w, /assets/images/optimized/448648a2e473-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/448648a2e473-1600.webp",
+      "retina": "/assets/images/optimized/448648a2e473-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%2011.JPG": {
+    "src": "/assets/images/optimized/d7321959f766-640.webp",
+    "srcset": "/assets/images/optimized/d7321959f766-320.webp 320w, /assets/images/optimized/d7321959f766-640.webp 640w, /assets/images/optimized/d7321959f766-960.webp 960w, /assets/images/optimized/d7321959f766-1280.webp 1280w, /assets/images/optimized/d7321959f766-1600.webp 1600w, /assets/images/optimized/d7321959f766-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/d7321959f766-1600.webp",
+      "retina": "/assets/images/optimized/d7321959f766-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%202.JPG": {
+    "src": "/assets/images/optimized/0893e0957bd6-640.webp",
+    "srcset": "/assets/images/optimized/0893e0957bd6-320.webp 320w, /assets/images/optimized/0893e0957bd6-640.webp 640w, /assets/images/optimized/0893e0957bd6-960.webp 960w, /assets/images/optimized/0893e0957bd6-1280.webp 1280w, /assets/images/optimized/0893e0957bd6-1600.webp 1600w, /assets/images/optimized/0893e0957bd6-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/0893e0957bd6-1600.webp",
+      "retina": "/assets/images/optimized/0893e0957bd6-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%203.JPG": {
+    "src": "/assets/images/optimized/2b74dae2c55a-640.webp",
+    "srcset": "/assets/images/optimized/2b74dae2c55a-320.webp 320w, /assets/images/optimized/2b74dae2c55a-640.webp 640w, /assets/images/optimized/2b74dae2c55a-960.webp 960w, /assets/images/optimized/2b74dae2c55a-1280.webp 1280w, /assets/images/optimized/2b74dae2c55a-1600.webp 1600w, /assets/images/optimized/2b74dae2c55a-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/2b74dae2c55a-1600.webp",
+      "retina": "/assets/images/optimized/2b74dae2c55a-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%204.JPG": {
+    "src": "/assets/images/optimized/70b51a7971e4-640.webp",
+    "srcset": "/assets/images/optimized/70b51a7971e4-320.webp 320w, /assets/images/optimized/70b51a7971e4-640.webp 640w, /assets/images/optimized/70b51a7971e4-960.webp 960w, /assets/images/optimized/70b51a7971e4-1280.webp 1280w, /assets/images/optimized/70b51a7971e4-1600.webp 1600w, /assets/images/optimized/70b51a7971e4-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/70b51a7971e4-1600.webp",
+      "retina": "/assets/images/optimized/70b51a7971e4-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%205.JPG": {
+    "src": "/assets/images/optimized/e91b8d2c0855-640.webp",
+    "srcset": "/assets/images/optimized/e91b8d2c0855-320.webp 320w, /assets/images/optimized/e91b8d2c0855-640.webp 640w, /assets/images/optimized/e91b8d2c0855-960.webp 960w, /assets/images/optimized/e91b8d2c0855-1280.webp 1280w, /assets/images/optimized/e91b8d2c0855-1600.webp 1600w, /assets/images/optimized/e91b8d2c0855-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/e91b8d2c0855-1600.webp",
+      "retina": "/assets/images/optimized/e91b8d2c0855-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%206.JPG": {
+    "src": "/assets/images/optimized/4cecf68faca3-640.webp",
+    "srcset": "/assets/images/optimized/4cecf68faca3-320.webp 320w, /assets/images/optimized/4cecf68faca3-640.webp 640w, /assets/images/optimized/4cecf68faca3-960.webp 960w, /assets/images/optimized/4cecf68faca3-1280.webp 1280w, /assets/images/optimized/4cecf68faca3-1600.webp 1600w, /assets/images/optimized/4cecf68faca3-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/4cecf68faca3-1600.webp",
+      "retina": "/assets/images/optimized/4cecf68faca3-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%208.JPG": {
+    "src": "/assets/images/optimized/277c4c4a29f5-640.webp",
+    "srcset": "/assets/images/optimized/277c4c4a29f5-320.webp 320w, /assets/images/optimized/277c4c4a29f5-640.webp 640w, /assets/images/optimized/277c4c4a29f5-960.webp 960w, /assets/images/optimized/277c4c4a29f5-1280.webp 1280w, /assets/images/optimized/277c4c4a29f5-1600.webp 1600w, /assets/images/optimized/277c4c4a29f5-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/277c4c4a29f5-1600.webp",
+      "retina": "/assets/images/optimized/277c4c4a29f5-2400.webp"
+    }
+  },
+  "/assets/images/hero/Aram%20edited%209.JPG": {
+    "src": "/assets/images/optimized/f1b7372c0e81-640.webp",
+    "srcset": "/assets/images/optimized/f1b7372c0e81-320.webp 320w, /assets/images/optimized/f1b7372c0e81-640.webp 640w, /assets/images/optimized/f1b7372c0e81-960.webp 960w, /assets/images/optimized/f1b7372c0e81-1280.webp 1280w, /assets/images/optimized/f1b7372c0e81-1600.webp 1600w, /assets/images/optimized/f1b7372c0e81-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/f1b7372c0e81-1600.webp",
+      "retina": "/assets/images/optimized/f1b7372c0e81-2400.webp"
+    }
+  },
+  "/assets/images/hero/IMG_4379.PNG": {
+    "src": "/assets/images/optimized/fd4903922af2-640.webp",
+    "srcset": "/assets/images/optimized/fd4903922af2-320.webp 320w, /assets/images/optimized/fd4903922af2-640.webp 640w, /assets/images/optimized/fd4903922af2-960.webp 960w, /assets/images/optimized/fd4903922af2-1024.webp 1024w",
+    "background": {
+      "standard": "/assets/images/optimized/fd4903922af2-1024.webp",
+      "retina": "/assets/images/optimized/fd4903922af2-1024.webp"
+    }
+  },
+  "/assets/images/hero/IMG_4384.PNG": {
+    "src": "/assets/images/optimized/56abf718b029-640.webp",
+    "srcset": "/assets/images/optimized/56abf718b029-320.webp 320w, /assets/images/optimized/56abf718b029-640.webp 640w, /assets/images/optimized/56abf718b029-960.webp 960w, /assets/images/optimized/56abf718b029-1280.webp 1280w, /assets/images/optimized/56abf718b029-1441.webp 1441w",
+    "background": {
+      "standard": "/assets/images/optimized/56abf718b029-1441.webp",
+      "retina": "/assets/images/optimized/56abf718b029-1441.webp"
+    }
+  },
+  "/assets/images/hero/IMG_4385.PNG": {
+    "src": "/assets/images/optimized/1a1264b08828-640.webp",
+    "srcset": "/assets/images/optimized/1a1264b08828-320.webp 320w, /assets/images/optimized/1a1264b08828-640.webp 640w, /assets/images/optimized/1a1264b08828-960.webp 960w, /assets/images/optimized/1a1264b08828-1024.webp 1024w",
+    "background": {
+      "standard": "/assets/images/optimized/1a1264b08828-1024.webp",
+      "retina": "/assets/images/optimized/1a1264b08828-1024.webp"
+    }
+  },
+  "/assets/images/hero/manager-outdoor.jpeg": {
+    "src": "/assets/images/optimized/eadef8721b14-640.webp",
+    "srcset": "/assets/images/optimized/eadef8721b14-320.webp 320w, /assets/images/optimized/eadef8721b14-640.webp 640w, /assets/images/optimized/eadef8721b14-720.webp 720w",
+    "background": {
+      "standard": "/assets/images/optimized/eadef8721b14-720.webp",
+      "retina": "/assets/images/optimized/eadef8721b14-720.webp"
+    }
+  },
+  "/assets/images/hero/manager-outdoor2.jpeg": {
+    "src": "/assets/images/optimized/8f72095baed3-640.webp",
+    "srcset": "/assets/images/optimized/8f72095baed3-320.webp 320w, /assets/images/optimized/8f72095baed3-640.webp 640w, /assets/images/optimized/8f72095baed3-720.webp 720w",
+    "background": {
+      "standard": "/assets/images/optimized/8f72095baed3-720.webp",
+      "retina": "/assets/images/optimized/8f72095baed3-720.webp"
+    }
+  },
+  "/assets/images/hero/The%20beginning%20.JPG": {
+    "src": "/assets/images/optimized/1773a8314a43-640.webp",
+    "srcset": "/assets/images/optimized/1773a8314a43-320.webp 320w, /assets/images/optimized/1773a8314a43-640.webp 640w, /assets/images/optimized/1773a8314a43-960.webp 960w, /assets/images/optimized/1773a8314a43-1280.webp 1280w, /assets/images/optimized/1773a8314a43-1600.webp 1600w, /assets/images/optimized/1773a8314a43-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/1773a8314a43-1600.webp",
+      "retina": "/assets/images/optimized/1773a8314a43-2400.webp"
+    }
+  },
+  "/assets/images/hero/WhatsApp%20Image%202026-10-27%20at%2011.31.45%E2%80%AFAM.jpeg": {
+    "src": "/assets/images/optimized/715f8c221d1d-640.webp",
+    "srcset": "/assets/images/optimized/715f8c221d1d-320.webp 320w, /assets/images/optimized/715f8c221d1d-640.webp 640w, /assets/images/optimized/715f8c221d1d-960.webp 960w, /assets/images/optimized/715f8c221d1d-1280.webp 1280w, /assets/images/optimized/715f8c221d1d-1600.webp 1600w, /assets/images/optimized/715f8c221d1d-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/715f8c221d1d-1600.webp",
+      "retina": "/assets/images/optimized/715f8c221d1d-2400.webp"
+    }
+  },
+  "/assets/images/hero/WhatsApp%20Image%202026-10-27%20at%2011.33.06%E2%80%AFAM.jpeg": {
+    "src": "/assets/images/optimized/7f91903162b2-640.webp",
+    "srcset": "/assets/images/optimized/7f91903162b2-320.webp 320w, /assets/images/optimized/7f91903162b2-640.webp 640w, /assets/images/optimized/7f91903162b2-960.webp 960w, /assets/images/optimized/7f91903162b2-1280.webp 1280w, /assets/images/optimized/7f91903162b2-1600.webp 1600w, /assets/images/optimized/7f91903162b2-2400.webp 2400w",
+    "background": {
+      "standard": "/assets/images/optimized/7f91903162b2-1600.webp",
+      "retina": "/assets/images/optimized/7f91903162b2-2400.webp"
+    }
+  },
+  "/assets/images/hero/WhatsApp%20Image%202026-10-27%20at%2011.52.23%E2%80%AFAM.jpeg": {
+    "src": "/assets/images/optimized/47216c197361-640.webp",
+    "srcset": "/assets/images/optimized/47216c197361-320.webp 320w, /assets/images/optimized/47216c197361-640.webp 640w, /assets/images/optimized/47216c197361-847.webp 847w",
+    "background": {
+      "standard": "/assets/images/optimized/47216c197361-847.webp",
+      "retina": "/assets/images/optimized/47216c197361-847.webp"
+    }
+  },
+  "/assets/images/hero/WhatsApp%20Image%202026-10-27%20at%2011.54.54%E2%80%AFAM.jpeg": {
+    "src": "/assets/images/optimized/74cbfb4a464d-640.webp",
+    "srcset": "/assets/images/optimized/74cbfb4a464d-320.webp 320w, /assets/images/optimized/74cbfb4a464d-640.webp 640w, /assets/images/optimized/74cbfb4a464d-960.webp 960w, /assets/images/optimized/74cbfb4a464d-1020.webp 1020w",
+    "background": {
+      "standard": "/assets/images/optimized/74cbfb4a464d-1020.webp",
+      "retina": "/assets/images/optimized/74cbfb4a464d-1020.webp"
+    }
+  },
+  "/assets/images/icon-863d581d.png": {
+    "src": "/assets/images/optimized/002d0b9f4b90-30.webp",
+    "srcset": "/assets/images/optimized/002d0b9f4b90-30.webp 30w",
+    "background": {
+      "standard": "/assets/images/optimized/002d0b9f4b90-30.webp",
+      "retina": "/assets/images/optimized/002d0b9f4b90-30.webp"
+    }
+  },
+  "/assets/images/icon2-259f5169.png": {
+    "src": "/assets/images/optimized/c8a52f89a6bd-30.webp",
+    "srcset": "/assets/images/optimized/c8a52f89a6bd-30.webp 30w",
+    "background": {
+      "standard": "/assets/images/optimized/c8a52f89a6bd-30.webp",
+      "retina": "/assets/images/optimized/c8a52f89a6bd-30.webp"
+    }
+  },
+  "/assets/images/Jameson-logo-white-300x126-70d7dca3.png": {
+    "src": "/assets/images/optimized/f65e4b08ed61-300.webp",
+    "srcset": "/assets/images/optimized/f65e4b08ed61-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/f65e4b08ed61-300.webp",
+      "retina": "/assets/images/optimized/f65e4b08ed61-300.webp"
+    }
+  },
+  "/assets/images/line-d2363fc3.png": {
+    "src": "/assets/images/optimized/61277e1a868f-17.webp",
+    "srcset": "/assets/images/optimized/61277e1a868f-17.webp 17w",
+    "background": {
+      "standard": "/assets/images/optimized/61277e1a868f-17.webp",
+      "retina": "/assets/images/optimized/61277e1a868f-17.webp"
+    }
+  },
+  "/assets/images/malta_guinness_full_color-2-300x212-28736b36.png": {
+    "src": "/assets/images/optimized/4afdcc85e7a9-300.webp",
+    "srcset": "/assets/images/optimized/4afdcc85e7a9-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/4afdcc85e7a9-300.webp",
+      "retina": "/assets/images/optimized/4afdcc85e7a9-300.webp"
+    }
+  },
+  "/assets/images/Pepsi-Logo-2023-150x150-3fca1d89.png": {
+    "src": "/assets/images/optimized/8bfc42cc9d41-150.webp",
+    "srcset": "/assets/images/optimized/8bfc42cc9d41-150.webp 150w",
+    "background": {
+      "standard": "/assets/images/optimized/8bfc42cc9d41-150.webp",
+      "retina": "/assets/images/optimized/8bfc42cc9d41-150.webp"
+    }
+  },
+  "/assets/images/Project-X-Paris-300x206-e72dd924.png": {
+    "src": "/assets/images/optimized/f26806184c53-300.webp",
+    "srcset": "/assets/images/optimized/f26806184c53-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/f26806184c53-300.webp",
+      "retina": "/assets/images/optimized/f26806184c53-300.webp"
+    }
+  },
+  "/assets/images/red-bull-logo-png-transparent-300x185-42d75134.png": {
+    "src": "/assets/images/optimized/fc5d3f150d59-300.webp",
+    "srcset": "/assets/images/optimized/fc5d3f150d59-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/fc5d3f150d59-300.webp",
+      "retina": "/assets/images/optimized/fc5d3f150d59-300.webp"
+    }
+  },
+  "/assets/images/Trace_TV_Logo.svg-300x77-4e6a47c6.png": {
+    "src": "/assets/images/optimized/5052106c7cd8-300.webp",
+    "srcset": "/assets/images/optimized/5052106c7cd8-300.webp 300w",
+    "background": {
+      "standard": "/assets/images/optimized/5052106c7cd8-300.webp",
+      "retina": "/assets/images/optimized/5052106c7cd8-300.webp"
+    }
+  }
+}

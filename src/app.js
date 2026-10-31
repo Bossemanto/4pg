@@ -2,7 +2,7 @@ const app = document.querySelector("#app");
 const BRAND = "4PG Record Label";
 const LOGO_LIGHT = "/assets/images/4pg-wordmark-light.png";
 const HERO_YT_ID = "6OzP09nC79o";
-const DATA_FILES = ["pages", "profiles", "posts", "events", "manifest"];
+const DATA_FILES = ["pages", "profiles", "posts", "events", "manifest", "imageVariants"];
 const HERO_IMAGE_FILES = [
   "Aram 7.JPG",
   "Aram edited 1.JPG",
@@ -21,8 +21,6 @@ const HERO_IMAGE_FILES = [
   "The beginning .JPG",
   "WhatsApp Image 2026-10-27 at 11.31.45 AM.jpeg",
   "WhatsApp Image 2026-10-27 at 11.33.06 AM.jpeg",
-  "WhatsApp Image 2026-10-27 at 11.48.33 AM.jpeg",
-  "WhatsApp Image 2026-10-27 at 11.49.22 AM.jpeg",
   "WhatsApp Image 2026-10-27 at 11.52.23 AM.jpeg",
   "WhatsApp Image 2026-10-27 at 11.54.54 AM.jpeg"
 ];
@@ -48,13 +46,31 @@ function localAsset(source = "") {
   return data.manifest[source] || source;
 }
 
+function largeImageAsset(source = "") {
+  const local = localAsset(source);
+  return data.imageVariants[local]?.background?.retina || local;
+}
+
 function cleanPath(pathname = location.pathname) {
   if (pathname === "/") return "/";
   return `/${pathname.split("/").filter(Boolean).join("/")}/`;
 }
 
 function image(source, alt = "", className = "") {
-  return `<img class="${escapeHtml(className)}" src="${escapeHtml(localAsset(source))}" alt="${escapeHtml(alt)}" decoding="async">`;
+  const local = localAsset(source);
+  const variants = data.imageVariants[local];
+  const sizes = className === "mosaic-image"
+    ? "(max-width: 700px) 25vw, 18vw"
+    : className === "partner-logo"
+      ? "180px"
+      : source === LOGO_LIGHT
+        ? "160px"
+        : "(max-width: 700px) 90vw, 50vw";
+  const srcset = variants?.srcset
+    ? ` srcset="${escapeHtml(variants.srcset)}" sizes="${escapeHtml(sizes)}"`
+    : "";
+  const loading = className === "mosaic-image" || source === LOGO_LIGHT ? "eager" : "lazy";
+  return `<img class="${escapeHtml(className)}" src="${escapeHtml(variants?.src || local)}"${srcset} alt="${escapeHtml(alt)}" loading="${loading}" decoding="async">`;
 }
 
 function pageData(slug) {
@@ -104,7 +120,12 @@ function navigationMarkup(home = false) {
 }
 
 function pageHero(title, eyebrow = "", background = "") {
-  const style = background ? ` style="--page-background:url('${escapeHtml(localAsset(background))}')"` : "";
+  const local = localAsset(background);
+  const variants = data.imageVariants[local];
+  const imageSet = variants?.background
+    ? `image-set(url("${variants.background.standard}") 1x, url("${variants.background.retina}") 2x)`
+    : `url("${local}")`;
+  const style = background ? ` style="--page-background:${escapeHtml(imageSet)}"` : "";
   return `<section class="page-hero"${style}>
     <div class="page-hero-shade"></div>
     <div class="page-hero-copy reveal"><p class="eyebrow">${escapeHtml(eyebrow)}</p><h1>${escapeHtml(title)}</h1></div>
@@ -202,7 +223,6 @@ function homePage() {
     <main>
       <section class="home-hero">
         ${mosaicMarkup()}
-        <div class="hero-spotlight" aria-hidden="true"></div>
         <div class="hero-shade"></div>
         <div class="hero-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
         <h1 class="sr-only">${BRAND}</h1>
@@ -227,7 +247,7 @@ function aboutPage() {
     { src: "/assets/images/hero/manager-outdoor2.jpeg", alt: "4PG City Skyline View" }
   ];
   const gallery = sceneries.map(item =>
-    `<button class="gallery-item" type="button" data-lightbox="${escapeHtml(localAsset(item.src))}" aria-label="View ${escapeHtml(item.alt)}">${image(item.src, item.alt)}</button>`
+    `<button class="gallery-item" type="button" data-lightbox="${escapeHtml(largeImageAsset(item.src))}" aria-label="View ${escapeHtml(item.alt)}">${image(item.src, item.alt)}</button>`
   ).join("");
 
   return `${navigationMarkup()}<main class="page-content">
@@ -240,7 +260,7 @@ function aboutPage() {
       <div class="section-heading"><p class="eyebrow">4PG Visuals</p><h2>4PG Scenery &amp; Culture</h2></div>
       <div class="gallery-grid">${gallery}</div>
     </section>
-    <dialog class="image-lightbox"><button class="image-lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></dialog>
+    <dialog class="image-lightbox"><button class="image-lightbox-close" type="button" aria-label="Close image">×</button><img data-lightbox-image alt=""></dialog>
   </main>${footer()}`;
 }
 
@@ -261,7 +281,7 @@ function profilePage(path) {
   const copy = (profile.blocks || []).filter(block => block.tag === "p");
   const links = (profile.links || []).filter(link => /^https?:\/\//.test(link.href) && !link.href.includes("chocolatecitymusic.com"));
   const role = profile.role || "Artist";
-  const gallery = images.slice(1).map(item => `<button class="gallery-item" type="button" data-lightbox="${escapeHtml(localAsset(item.src))}" aria-label="View ${escapeHtml(item.alt)}">${image(item.src, item.alt)}</button>`).join("");
+  const gallery = images.slice(1).map(item => `<button class="gallery-item" type="button" data-lightbox="${escapeHtml(largeImageAsset(item.src))}" aria-label="View ${escapeHtml(item.alt)}">${image(item.src, item.alt)}</button>`).join("");
   return `${navigationMarkup()}<main class="page-content profile-page">
     ${pageHero(profile.title, `4PG ${role.toLowerCase()}`, images[0]?.src)}
     <section class="section profile-overview">
@@ -270,7 +290,7 @@ function profilePage(path) {
         ${links.length ? `<div class="profile-socials">${links.map(link => `<a href="${escapeHtml(link.href)}" target="_blank" rel="noreferrer">${escapeHtml(link.text || new URL(link.href).hostname.replace(/^www\\./, ""))}</a>`).join("")}</div>` : ""}
       </div>
     </section>
-    ${gallery ? `<section class="section"><div class="gallery-grid">${gallery}</div></section><dialog class="image-lightbox"><button class="image-lightbox-close" type="button" aria-label="Close image">×</button><img src="${escapeHtml(localAsset(images[0]?.src))}" alt=""></dialog>` : ""}
+    ${gallery ? `<section class="section"><div class="gallery-grid">${gallery}</div></section><dialog class="image-lightbox"><button class="image-lightbox-close" type="button" aria-label="Close image">×</button><img data-lightbox-image src="${escapeHtml(largeImageAsset(images[0]?.src))}" alt=""></dialog>` : ""}
   </main>${footer()}`;
 }
 
@@ -481,7 +501,7 @@ app.addEventListener("click", event => {
   if (gallery) {
     const dialog = document.querySelector(".image-lightbox");
     if (dialog) {
-      dialog.querySelector("img").src = gallery.dataset.lightbox;
+      dialog.querySelector("[data-lightbox-image]").src = gallery.dataset.lightbox;
       dialog.showModal();
     }
     return;
@@ -525,43 +545,87 @@ app.addEventListener("keydown", event => {
   document.querySelector(".menu-toggle")?.setAttribute("aria-label", "Open navigation");
 });
 
-let spotlightCurrentX = 50;
-let spotlightCurrentY = 50;
-let spotlightTargetX = 50;
-let spotlightTargetY = 50;
-let spotlightRaf = null;
+let activeGlowTile = null;
+let glowCurrentX = 0;
+let glowCurrentY = 0;
+let glowTargetX = 0;
+let glowTargetY = 0;
+let glowRaf = null;
+const glowMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 1 : 0.18;
 
-function animateSpotlight() {
-  spotlightCurrentX += (spotlightTargetX - spotlightCurrentX) * 0.12;
-  spotlightCurrentY += (spotlightTargetY - spotlightCurrentY) * 0.12;
-  const hero = document.querySelector(".home-hero");
-  if (hero) {
-    hero.style.setProperty("--spotlight-x", `${spotlightCurrentX.toFixed(2)}%`);
-    hero.style.setProperty("--spotlight-y", `${spotlightCurrentY.toFixed(2)}%`);
-    if (Math.hypot(spotlightTargetX - spotlightCurrentX, spotlightTargetY - spotlightCurrentY) > 0.05) {
-      spotlightRaf = requestAnimationFrame(animateSpotlight);
-    } else {
-      spotlightRaf = null;
-    }
+function animateTileGlow() {
+  if (!activeGlowTile) {
+    glowRaf = null;
+    return;
+  }
+
+  glowCurrentX += (glowTargetX - glowCurrentX) * glowMotion;
+  glowCurrentY += (glowTargetY - glowCurrentY) * glowMotion;
+  activeGlowTile.style.setProperty("--glow-x", `${glowCurrentX.toFixed(1)}px`);
+  activeGlowTile.style.setProperty("--glow-y", `${glowCurrentY.toFixed(1)}px`);
+
+  if (Math.hypot(glowTargetX - glowCurrentX, glowTargetY - glowCurrentY) > 0.2) {
+    glowRaf = requestAnimationFrame(animateTileGlow);
+  } else {
+    glowRaf = null;
   }
 }
 
-document.addEventListener("mousemove", event => {
+app.addEventListener("pointermove", event => {
+  if (event.pointerType === "touch") return;
   const hero = event.target.closest(".home-hero");
-  if (!hero) return;
-  const rect = hero.getBoundingClientRect();
-  spotlightTargetX = ((event.clientX - rect.left) / rect.width) * 100;
-  spotlightTargetY = ((event.clientY - rect.top) / rect.height) * 100;
-  if (!spotlightRaf) {
-    spotlightRaf = requestAnimationFrame(animateSpotlight);
+  const targetTile = event.target.closest(".mosaic-tile");
+  const tile = targetTile || (hero && [...hero.querySelectorAll(".mosaic-tile")].find(candidate => {
+    const bounds = candidate.getBoundingClientRect();
+    return event.clientX >= bounds.left && event.clientX <= bounds.right
+      && event.clientY >= bounds.top && event.clientY <= bounds.bottom;
+  }));
+
+  if (!tile) {
+    if (activeGlowTile) {
+      activeGlowTile.classList.remove("is-lit");
+      activeGlowTile = null;
+    }
+    return;
   }
+
+  const bounds = tile.getBoundingClientRect();
+  glowTargetX = event.clientX - bounds.left;
+  glowTargetY = event.clientY - bounds.top;
+  tile.dataset.glowEdge = [
+    ["top", glowTargetY],
+    ["right", bounds.width - glowTargetX],
+    ["bottom", bounds.height - glowTargetY],
+    ["left", glowTargetX]
+  ].reduce((nearest, edge) => edge[1] < nearest[1] ? edge : nearest)[0];
+
+  if (activeGlowTile !== tile) {
+    activeGlowTile?.classList.remove("is-lit");
+    activeGlowTile = tile;
+    glowCurrentX = glowTargetX;
+    glowCurrentY = glowTargetY;
+    tile.classList.add("is-lit");
+  }
+
+  if (!glowRaf) glowRaf = requestAnimationFrame(animateTileGlow);
+});
+
+app.addEventListener("pointerout", event => {
+  const hero = event.target.closest(".home-hero");
+  if (!hero || hero.contains(event.relatedTarget)) return;
+  activeGlowTile?.classList.remove("is-lit");
+  activeGlowTile = null;
 });
 
 window.addEventListener("popstate", render);
 
 async function loadData() {
   const entries = await Promise.all(DATA_FILES.map(async name => {
-    const url = name === "manifest" ? "/assets/manifest.json" : `/src/data/${name}.json`;
+    const url = name === "manifest"
+      ? "/assets/manifest.json"
+      : name === "imageVariants"
+        ? "/assets/image-variants.json"
+        : `/src/data/${name}.json`;
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Unable to load ${name} data (${response.status})`);
     return response.json();
