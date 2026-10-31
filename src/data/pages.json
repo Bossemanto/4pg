@@ -1,0 +1,592 @@
+[
+  {
+    "slug": "my-account",
+    "title": "My account",
+    "blocks": [],
+    "images": [],
+    "media": []
+  },
+  {
+    "slug": "shop",
+    "title": "Shop",
+    "blocks": [],
+    "images": [],
+    "media": []
+  },
+  {
+    "slug": "services",
+    "title": "Services",
+    "blocks": [
+      {
+        "tag": "h3",
+        "text": "Still Photography"
+      },
+      {
+        "tag": "p",
+        "text": "Our comprehensive solutions empower you to unleash the full potential…"
+      },
+      {
+        "tag": "h3",
+        "text": "Creative Creations"
+      },
+      {
+        "tag": "p",
+        "text": "Our comprehensive solutions empower you to unleash the full potential…"
+      },
+      {
+        "tag": "h3",
+        "text": "Next-gen Editing"
+      },
+      {
+        "tag": "p",
+        "text": "Our comprehensive solutions empower you to unleash the full potential…"
+      },
+      {
+        "tag": "h3",
+        "text": "Event Production"
+      },
+      {
+        "tag": "p",
+        "text": "Our comprehensive solutions empower you to unleash the full potential…"
+      },
+      {
+        "tag": "h3",
+        "text": "Video Production"
+      },
+      {
+        "tag": "p",
+        "text": "Our comprehensive solutions empower you to unleash the full potential…"
+      },
+      {
+        "tag": "h3",
+        "text": "Product Video"
+      },
+      {
+        "tag": "p",
+        "text": "Our comprehensive solutions empower you to unleash the full potential…"
+      },
+      {
+        "tag": "h3",
+        "text": "Get your videography service asap"
+      },
+      {
+        "tag": "h3",
+        "text": "Emilio J. Harper"
+      },
+      {
+        "tag": "h5",
+        "text": "bookings@4pgrecords.com"
+      },
+      {
+        "tag": "h5",
+        "text": "+123 456 789 00"
+      },
+      {
+        "tag": "p",
+        "text": "Δ"
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h3-20.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/08/006-camera-lens.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h3-23.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h3-22.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/08/017-full-screen.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/08/004-color-scheme.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h2-17.webp"
+      }
+    ],
+    "media": []
+  },
+  {
+    "slug": "artist",
+    "title": "Roster & Producers",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "4PG Record Label Roster & Producers"
+      }
+    ],
+    "images": [
+      {
+        "alt": "Aram Jay",
+        "src": "/assets/images/hero/Aram%20edited%201.JPG"
+      }
+    ],
+    "media": []
+  },
+  {
+    "slug": "coming-soon",
+    "title": "Coming Soon",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "We are coming very soon"
+      },
+      {
+        "tag": "p",
+        "text": "Δ"
+      }
+    ],
+    "images": [],
+    "media": [
+      {
+        "tag": "source",
+        "src": "https://framerusercontent.com/assets/7cfKwwJbdvTH5qlQZF3Yfixo.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "booking-form",
+    "title": "Booking Form",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Δ"
+      }
+    ],
+    "images": [],
+    "media": []
+  },
+  {
+    "slug": "events",
+    "title": "Events",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Upcoming releases and live announcements from 4PG Record Label."
+      },
+      {
+        "tag": "h3",
+        "text": "Le Debut – Official Music Release"
+      }
+    ],
+    "images": [
+      {
+        "alt": "Le Debut – Official Release Artwork",
+        "src": "/assets/images/hero/IMG_4379.PNG"
+      }
+    ],
+    "media": []
+  },
+  {
+    "slug": "about-us",
+    "title": "About Us",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "4PG Vision"
+      },
+      {
+        "tag": "h3",
+        "text": "Creating Timeless Classics: 4PG Record Label is Dedicated to Preserving the Best Music of Today and Tomorrow."
+      },
+      {
+        "tag": "p",
+        "text": "4PG Record Label is an independent music imprint committed to authentic artistry, creative freedom, and artist-first development."
+      },
+      {
+        "tag": "p",
+        "text": "Rooted in passion and dedicated to sonic excellence, 4PG provides the infrastructure, strategic guidance, and creative platform for visionary talent to thrive globally."
+      },
+      {
+        "tag": "p",
+        "text": "With flagship artist Aram Jay and a dedicated management and operations team led by Partehad, 4PG is crafting a distinctive legacy in contemporary music."
+      }
+    ],
+    "images": [
+      {
+        "alt": "4PG – Something is Coming",
+        "src": "/assets/images/hero/about-banner.JPG"
+      },
+      {
+        "alt": "4PG Management & Operations",
+        "src": "/assets/images/hero/manager-outdoor.jpeg"
+      },
+      {
+        "alt": "4PG City Skyline View",
+        "src": "/assets/images/hero/manager-outdoor2.jpeg"
+      }
+    ],
+    "media": []
+  },
+  {
+    "slug": "photography",
+    "title": "Home",
+    "blocks": [
+      {
+        "tag": "h5",
+        "text": "4PG Record Label"
+      },
+      {
+        "tag": "p",
+        "text": "©2026"
+      },
+      {
+        "tag": "p",
+        "text": "4PG Record Label is an independent music imprint committed to authentic artistry, creative freedom, and artist-first development — dedicated to discovering, nurturing, and promoting visionary talent while pushing music to the global stage."
+      },
+      {
+        "tag": "h3",
+        "text": "Meet our Artists"
+      },
+      {
+        "tag": "p",
+        "text": "02"
+      },
+      {
+        "tag": "h5",
+        "text": "Noon Dave"
+      },
+      {
+        "tag": "h5",
+        "text": "Major AJ"
+      },
+      {
+        "tag": "h5",
+        "text": "Candy Bleakz"
+      },
+      {
+        "tag": "h5",
+        "text": "Young Jonn"
+      },
+      {
+        "tag": "h5",
+        "text": "Blaq Bonez"
+      },
+      {
+        "tag": "h5",
+        "text": "Tar1q"
+      },
+      {
+        "tag": "p",
+        "text": "Our Partners"
+      },
+      {
+        "tag": "p",
+        "text": "06"
+      },
+      {
+        "tag": "h3",
+        "text": "Creating Timeless Classics: 4PG Record Label is Dedicated to Preserving the Best Music of Today and Tomorrow."
+      },
+      {
+        "tag": "h3",
+        "text": "Get in touch"
+      },
+      {
+        "tag": "p",
+        "text": "Δ"
+      }
+    ],
+    "images": [
+      {
+        "alt": "CCM-08",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-08.jpg"
+      },
+      {
+        "alt": "CCM-09",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-09.jpg"
+      },
+      {
+        "alt": "CCM-10",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-10.jpg"
+      },
+      {
+        "alt": "CCM-02",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-02.jpg"
+      },
+      {
+        "alt": "CCM-08",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-08.jpg"
+      },
+      {
+        "alt": "CCM-04",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-04.jpg"
+      },
+      {
+        "alt": "CCM-31.webp",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-31.webp.png"
+      },
+      {
+        "alt": "CCM-02",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-02.jpg"
+      },
+      {
+        "alt": "CCM-03",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-03.jpg"
+      },
+      {
+        "alt": "CCM-04",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-04.jpg"
+      },
+      {
+        "alt": "CCM-05",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-05.jpg"
+      },
+      {
+        "alt": "CCM-06",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-06.jpg"
+      },
+      {
+        "alt": "CCM-07",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-07.jpg"
+      },
+      {
+        "alt": "CCM-11",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-11.jpg"
+      },
+      {
+        "alt": "CCM-08",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCM-08.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/fc.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/1.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/2.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/line.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/3.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-2.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-32.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-32.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-32.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-32.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-32.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-32.webp"
+      },
+      {
+        "alt": "red-bull-logo-png-transparent",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/red-bull-logo-png-transparent-300x185.png"
+      },
+      {
+        "alt": "Pepsi-Logo-2023",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Pepsi-Logo-2023-150x150.png"
+      },
+      {
+        "alt": "Ballantines-Logo-white",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Ballantines-Logo-white-300x112.png"
+      },
+      {
+        "alt": "Hennessy-Logo-white",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Hennessy-Logo-white-300x159.png"
+      },
+      {
+        "alt": "Jameson-logo-white",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Jameson-logo-white-300x126.png"
+      },
+      {
+        "alt": "Project X Paris",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Project-X-Paris-300x206.png"
+      },
+      {
+        "alt": "Trace_TV_Logo.svg",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Trace_TV_Logo.svg-300x77.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/malta_guinness_full_color-2-300x212.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-16.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-17.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-18.webp"
+      },
+      {
+        "alt": "CCMusic-02",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCMusic-02-150x150.jpg"
+      },
+      {
+        "alt": "CCMusic-03",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCMusic-03-150x150.jpg"
+      },
+      {
+        "alt": "CCMusic-01",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCMusic-01-200x200.jpg"
+      },
+      {
+        "alt": "CCMusic-04",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCMusic-04-150x150.jpg"
+      },
+      {
+        "alt": "CCMusic-05",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/CCMusic-05-150x150.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/06/h1-39.png"
+      }
+    ],
+    "media": [
+      {
+        "tag": "source",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2026/02/Choc-City-Music-Videos-2025.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "contact-us",
+    "title": "Contact Us",
+    "blocks": [
+      {
+        "tag": "h3",
+        "text": "House 2, Dele Adedeji street, Lekki Phase 1, Lagos."
+      },
+      {
+        "tag": "h3",
+        "text": "+234 816 889 4516"
+      },
+      {
+        "tag": "h3",
+        "text": "bookings@4pgrecords.com"
+      },
+      {
+        "tag": "h3",
+        "text": "info@4pgrecords.com"
+      },
+      {
+        "tag": "h3",
+        "text": "Send us a message"
+      },
+      {
+        "tag": "p",
+        "text": "01"
+      },
+      {
+        "tag": "p",
+        "text": "Δ"
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/07/h1-41.webp"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/08/icon.png"
+      },
+      {
+        "alt": "",
+        "src": "https://chocolatecitymusic.com/wp-content/uploads/2025/08/icon2.png"
+      }
+    ],
+    "media": [
+      {
+        "tag": "iframe",
+        "src": "https://maps.google.com/maps?q=House%202%2C%20Dele%20Adedeji%20street%2C%20Lekki%20Phase%201%2C%20Lagos.&t=m&z=15&output=embed&iwloc=near"
+      }
+    ]
+  },
+  {
+    "slug": "checkout",
+    "title": "Checkout",
+    "blocks": [],
+    "images": [],
+    "media": []
+  },
+  {
+    "slug": "cart",
+    "title": "Cart",
+    "blocks": [
+      {
+        "tag": "h2",
+        "text": "You may be interested in…"
+      },
+      {
+        "tag": "h2",
+        "text": "Your cart is currently empty!"
+      },
+      {
+        "tag": "h2",
+        "text": "New in store"
+      }
+    ],
+    "images": [],
+    "media": []
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "event/le-debut",
+    "path": "/event/le-debut/",
+    "title": "Le Debut – Official Music Release",
+    "artist": "Aram Jay",
+    "date": "16 November 2026",
+    "eventType": "Music Release",
+    "venue": "Global Digital Release",
+    "blocks": [
+      {
+        "tag": "h3",
+        "text": "LE DEBUT – OFFICIAL MUSIC RELEASE"
+      },
+      {
+        "tag": "p",
+        "text": "4PG Record Label announces the upcoming official music release of \"Le Debut\" by Aram Jay."
+      },
+      {
+        "tag": "p",
+        "text": "Marking a defining milestone in Aram Jay’s musical trajectory, \"Le Debut\" introduces the artist's signature sound and vision. The official release arrives globally on 16 November 2026 across all major streaming platforms."
+      },
+      {
+        "tag": "li",
+        "label": "Artist",
+        "text": "Aram Jay"
+      },
+      {
+        "tag": "li",
+        "label": "Release Date",
+        "text": "16 November 2026"
+      },
+      {
+        "tag": "li",
+        "label": "Event Type",
+        "text": "Music Release"
+      },
+      {
+        "tag": "li",
+        "label": "Label",
+        "text": "4PG Record Label"
+      }
+    ],
+    "images": [
+      {
+        "alt": "Le Debut – Official Release Artwork",
+        "src": "/assets/images/hero/IMG_4379.PNG"
+      }
+    ],
+    "media": [],
+    "links": []
+  }
+]

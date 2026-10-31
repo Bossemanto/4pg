@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+.env
+assets/media/Choc-City-Music-Videos-2025-d18a2b54.mp4
+*.MOV
+*.mov

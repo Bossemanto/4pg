@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "portfolio/aram-jay",
+    "path": "/portfolio/aram-jay/",
+    "title": "Aram Jay",
+    "role": "Artist",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Aram Jay is the flagship recording artist for 4PG Record Label, bringing an unmistakable sound and authentic creative vision to the forefront of the label."
+      },
+      {
+        "tag": "p",
+        "text": "With his upcoming music release \"Le Debut\" scheduled for 16 November 2026, Aram Jay marks the beginning of a new chapter in contemporary music under 4PG Records."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Aram Jay",
+        "src": "/assets/images/hero/Aram%20edited%201.JPG"
+      },
+      {
+        "alt": "Aram Jay - Le Debut Artwork",
+        "src": "/assets/images/hero/IMG_4379.PNG"
+      },
+      {
+        "alt": "Aram Jay Studio Session",
+        "src": "/assets/images/hero/Aram%20edited%202.JPG"
+      },
+      {
+        "alt": "Aram Jay Editorial",
+        "src": "/assets/images/hero/Aram%20edited%203.JPG"
+      },
+      {
+        "alt": "Aram Jay Portrait",
+        "src": "/assets/images/hero/Aram%20edited%204.JPG"
+      },
+      {
+        "alt": "Aram Jay",
+        "src": "/assets/images/hero/Aram%207.JPG"
+      }
+    ],
+    "media": [],
+    "links": []
+  },
+  {
+    "slug": "portfolio/partehad",
+    "path": "/portfolio/partehad/",
+    "title": "Partehad",
+    "role": "Management",
+    "blocks": [
+      {
+        "tag": "p",
+        "text": "Partehad oversees artist management and label operations at 4PG Record Label."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Partehad - Management",
+        "src": "/assets/images/hero/manager-outdoor2.jpeg"
+      },
+      {
+        "alt": "Partehad - Label Operations",
+        "src": "/assets/images/hero/manager-outdoor.jpeg"
+      }
+    ],
+    "media": [],
+    "links": []
+  }
+]
