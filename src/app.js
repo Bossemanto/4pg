@@ -545,76 +545,55 @@ app.addEventListener("keydown", event => {
   document.querySelector(".menu-toggle")?.setAttribute("aria-label", "Open navigation");
 });
 
-let activeGlowTile = null;
-let glowCurrentX = 0;
-let glowCurrentY = 0;
-let glowTargetX = 0;
-let glowTargetY = 0;
-let glowRaf = null;
-const glowMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 1 : 0.18;
-
-function animateTileGlow() {
-  if (!activeGlowTile) {
-    glowRaf = null;
-    return;
-  }
-
-  glowCurrentX += (glowTargetX - glowCurrentX) * glowMotion;
-  glowCurrentY += (glowTargetY - glowCurrentY) * glowMotion;
-  activeGlowTile.style.setProperty("--glow-x", `${glowCurrentX.toFixed(1)}px`);
-  activeGlowTile.style.setProperty("--glow-y", `${glowCurrentY.toFixed(1)}px`);
-
-  if (Math.hypot(glowTargetX - glowCurrentX, glowTargetY - glowCurrentY) > 0.2) {
-    glowRaf = requestAnimationFrame(animateTileGlow);
-  } else {
-    glowRaf = null;
-  }
-}
+const activeGlowTiles = new Set();
+const glowProximity = 28;
 
 app.addEventListener("pointermove", event => {
   if (event.pointerType === "touch") return;
   const hero = event.target.closest(".home-hero");
-  const targetTile = event.target.closest(".mosaic-tile");
-  const tile = targetTile || (hero && [...hero.querySelectorAll(".mosaic-tile")].find(candidate => {
-    const bounds = candidate.getBoundingClientRect();
-    return event.clientX >= bounds.left && event.clientX <= bounds.right
-      && event.clientY >= bounds.top && event.clientY <= bounds.bottom;
-  }));
-
-  if (!tile) {
-    if (activeGlowTile) {
-      activeGlowTile.classList.remove("is-lit");
-      activeGlowTile = null;
-    }
+  if (!hero) {
+    activeGlowTiles.forEach(tile => tile.classList.remove("is-lit"));
+    activeGlowTiles.clear();
     return;
   }
 
-  const bounds = tile.getBoundingClientRect();
-  glowTargetX = event.clientX - bounds.left;
-  glowTargetY = event.clientY - bounds.top;
-  tile.dataset.glowEdge = [
-    ["top", glowTargetY],
-    ["right", bounds.width - glowTargetX],
-    ["bottom", bounds.height - glowTargetY],
-    ["left", glowTargetX]
-  ].reduce((nearest, edge) => edge[1] < nearest[1] ? edge : nearest)[0];
+  const heroBounds = hero.getBoundingClientRect();
+  const nearbyTiles = new Set();
+  for (const tile of hero.querySelectorAll(".mosaic-tile")) {
+    const bounds = tile.getBoundingClientRect();
+    if (bounds.right < heroBounds.left || bounds.left > heroBounds.right
+      || bounds.bottom < heroBounds.top || bounds.top > heroBounds.bottom) continue;
 
-  if (activeGlowTile !== tile) {
-    activeGlowTile?.classList.remove("is-lit");
-    activeGlowTile = tile;
-    glowCurrentX = glowTargetX;
-    glowCurrentY = glowTargetY;
+    const x = Math.max(0, Math.min(bounds.width, event.clientX - bounds.left));
+    const y = Math.max(0, Math.min(bounds.height, event.clientY - bounds.top));
+    const edges = [
+      { edge: "top", x, y: 0, distance: Math.hypot(event.clientX - (bounds.left + x), event.clientY - bounds.top) },
+      { edge: "right", x: bounds.width, y, distance: Math.hypot(event.clientX - bounds.right, event.clientY - (bounds.top + y)) },
+      { edge: "bottom", x, y: bounds.height, distance: Math.hypot(event.clientX - (bounds.left + x), event.clientY - bounds.bottom) },
+      { edge: "left", x: 0, y, distance: Math.hypot(event.clientX - bounds.left, event.clientY - (bounds.top + y)) }
+    ];
+    const nearest = edges.reduce((best, edge) => edge.distance < best.distance ? edge : best);
+    if (nearest.distance > glowProximity) continue;
+
+    tile.dataset.glowEdge = nearest.edge;
+    tile.style.setProperty("--glow-x", `${nearest.x}px`);
+    tile.style.setProperty("--glow-y", `${nearest.y}px`);
     tile.classList.add("is-lit");
+    nearbyTiles.add(tile);
   }
 
-  if (!glowRaf) glowRaf = requestAnimationFrame(animateTileGlow);
+  activeGlowTiles.forEach(tile => {
+    if (!nearbyTiles.has(tile)) tile.classList.remove("is-lit");
+  });
+  activeGlowTiles.clear();
+  nearbyTiles.forEach(tile => activeGlowTiles.add(tile));
 });
 
 app.addEventListener("pointerout", event => {
   const hero = event.target.closest(".home-hero");
   if (!hero || hero.contains(event.relatedTarget)) return;
-  activeGlowTile?.classList.remove("is-lit");
-  activeGlowTile = null;
+  activeGlowTiles.forEach(tile => tile.classList.remove("is-lit"));
+  activeGlowTiles.clear();
 });
 
 window.addEventListener("popstate", render);
